@@ -1,0 +1,13 @@
+> inspect(sort(rules, by = 'lift')[1:10])
+     lhs                                            rhs             support     confidence lift    
+[1]  {light cream}                               => {chicken}       0.004532729 0.2905983  4.843951
+[2]  {pasta}                                     => {escalope}      0.005865885 0.3728814  4.700812
+[3]  {pasta}                                     => {shrimp}        0.005065991 0.3220339  4.506672
+[4]  {eggs,ground beef}                          => {herb & pepper} 0.004132782 0.2066667  4.178455
+[5]  {whole wheat pasta}                         => {olive oil}     0.007998933 0.2714932  4.122410
+[6]  {herb & pepper,spaghetti}                   => {ground beef}   0.006399147 0.3934426  4.004360
+[7]  {herb & pepper,mineral water}               => {ground beef}   0.006665778 0.3906250  3.975683
+[8]  {tomato sauce}                              => {ground beef}   0.005332622 0.3773585  3.840659
+[9]  {mushroom cream sauce}                      => {escalope}      0.005732569 0.3006993  3.790833
+[10] {frozen vegetables,mineral water,spaghetti} => {ground beef}   0.004399413 0.3666667  3.731841
+> 
