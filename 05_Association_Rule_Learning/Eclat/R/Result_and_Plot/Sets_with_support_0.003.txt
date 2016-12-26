@@ -1,0 +1,13 @@
+> inspect(sort(rules, by = 'support')[1:10])
+     items                             support   
+[1]  {mineral water,spaghetti}         0.05972537
+[2]  {chocolate,mineral water}         0.05265965
+[3]  {eggs,mineral water}              0.05092654
+[4]  {milk,mineral water}              0.04799360
+[5]  {ground beef,mineral water}       0.04092788
+[6]  {ground beef,spaghetti}           0.03919477
+[7]  {chocolate,spaghetti}             0.03919477
+[8]  {eggs,spaghetti}                  0.03652846
+[9]  {eggs,french fries}               0.03639515
+[10] {frozen vegetables,mineral water} 0.03572857
+> 
